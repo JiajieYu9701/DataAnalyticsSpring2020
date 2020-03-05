@@ -35,7 +35,6 @@ plot(colMeans(data_Matrix_Ordered),xlab='Column',ylab='Column Mean',pch=19)
 rm(list = ls())
 data("Titanic")
 # Trees for the Titanic
-library(titanic)
 dim(titanic_train)
 head(titanic_train)
 titanic_train_new <- na.omit(titanic_train)
